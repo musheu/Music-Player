@@ -138,15 +138,15 @@ Deployed Application (**required**): [Music Playlist Explorer Deployed Site](htt
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-Yes, the topics discussed in our labs—especially working with JSON data and using Flexbox for layout—were very helpful in completing the assignment. These concepts gave me the confidence to structure and style the playlist tiles dynamically. However, I felt a bit unprepared for the stretch features, particularly the add and delete playlist functionalities. Implementing those would have required a deeper understanding of forms, event delegation, and data persistence, which we hadn't fully explored yet.
+  - Yes, the topics discussed in our labs—especially working with JSON data and using Flexbox for layout—were very helpful in completing the assignment. These concepts gave me the confidence to structure and style the playlist tiles dynamically. However, I felt a bit unprepared for the stretch features, particularly the add and delete playlist functionalities. Implementing those would have required a deeper understanding of forms, event delegation, and data persistence, which we hadn't fully explored yet.
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
 
-If I had more time, I would have added more interactivity and polished the overall layout and design of the site. I would have also explored stretch features like editing and deleting playlists, and refined the responsiveness of the UI across devices. Additionally, I would have taken time to fine-tune visual feedback and transitions for a smoother user experience.
+  - If I had more time, I would have added more interactivity and polished the overall layout and design of the site. I would have also explored stretch features like editing and deleting playlists, and refined the responsiveness of the UI across devices. Additionally, I would have taken time to fine-tune visual feedback and transitions for a smoother user experience.
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-My demo went overall great, and I received positive and constructive feedback that I’ll keep in mind for future projects. One thing that stood out to me during my peers’ demos was the playlist hover animations used by Liliana and Jackie. Their UI felt really polished and dynamic, and I’d love to try implementing similar animations in my next project to enhance the interactivity and visual appeal.
+  - My demo went overall great, and I received positive and constructive feedback that I’ll keep in mind for future projects. One thing that stood out to me during my peers’ demos was the playlist hover animations used by Liliana and Jackie. Their UI felt really polished and dynamic, and I’d love to try implementing similar animations in my next project to enhance the interactivity and visual appeal.
 
 ### Open-source libraries used
 
