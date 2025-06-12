@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Featured Playlist</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css?v=1">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<header>
+  <nav class="navbar">
+    <ul>
+      <li><p>Musheu's Player</p></li>
+      <li><a href="index.html">All Playlists</a></li>
+      <li><a href="featured.html">Featured</a></li>
+    </ul>
+  </nav>
+</header>
+<body class="featured-page">
+  <main class="main-container">
+    <h2 class="featured-subheader"><i>#Featured_Playlists</i></h2>
+    <div id="playlists-container" class="playlist-grid">
+      <!-- Random featured playlist will be inserted here as a tile -->
+    </div>
+  </main>
+
+  <div id="playlist-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <div class="modal-body modal-content-layout">
+        <div class="modal-tracks"></div>
+        <div class="modal-info"></div>
+      </div>
+      <div class="modal-now-playing" id="modal-now-playing"></div>
+    </div>
+  </div>
+</script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      fetch("data.json")
+        .then(response => response.json())
+        .then(data => {
+          const container = document.getElementById("playlists-container");
+          container.innerHTML = "";
+
+          // Shuffle and select two random playlists
+          const shuffled = data.sort(() => 0.5 - Math.random()).slice(0, 2);
+
+          shuffled.forEach(playlist => {
+            const tile = document.createElement("div");
+            tile.className = "playlist-tile";
+            tile.innerHTML = `
+              <img src="${playlist.image}" alt="${playlist.title}">
+              <h3>${playlist.title}</h3>
+              <p>By ${playlist.author}</p>
+            `;
+
+            tile.addEventListener("click", () => {
+              const modal = document.getElementById("playlist-modal");
+              const modalInfo = document.querySelector(".modal-info");
+              const modalTracks = document.querySelector(".modal-tracks");
+
+              modalInfo.innerHTML = `
+                <img src="${playlist.image}" alt="${playlist.title}" class="modal-info-image">
+                <h2>${playlist.title}</h2>
+                <p>By ${playlist.author}</p>
+              `;
+
+              modalTracks.innerHTML = "";
+              playlist.tracks.forEach(track => {
+                const trackDiv = document.createElement("div");
+                trackDiv.className = "track";
+
+                const title = document.createElement("h4");
+                title.textContent = track.title;
+
+                const artist = document.createElement("p");
+                artist.textContent = track.artist;
+
+                const duration = document.createElement("p");
+                duration.textContent = track.duration;
+
+                const audio = document.createElement("audio");
+                audio.src = track.src;
+                audio.controls = false;
+
+                const playBtn = document.createElement("button");
+                playBtn.textContent = "Play";
+                playBtn.className = "play-toggle";
+
+                playBtn.addEventListener("click", () => {
+                  if (audio.paused) {
+                    audio.play();
+                    playBtn.textContent = "Pause";
+                  } else {
+                    audio.pause();
+                    playBtn.textContent = "Play";
+                  }
+                });
+
+                trackDiv.appendChild(title);
+                trackDiv.appendChild(artist);
+                trackDiv.appendChild(duration);
+                trackDiv.appendChild(audio);
+                trackDiv.appendChild(playBtn);
+
+                modalTracks.appendChild(trackDiv);
+              });
+
+              modal.style.display = "flex";
+            });
+
+            container.appendChild(tile);
+          });
+        });
+
+      document.querySelector(".close-button").addEventListener("click", () => {
+        document.getElementById("playlist-modal").style.display = "none";
+      });
+    });
+  </script>
+</body>
+</html>

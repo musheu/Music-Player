@@ -1,0 +1,117 @@
+[
+  {
+    "id": 1,
+    "title": "Golden Hour Vibes",
+    "image": "images/star.gif",
+    "description": "Relax with mellow sunset beats.",
+    "author": "Musheu",
+    "tracks": [
+      { "title": "Falling Behind", "artist": "Laufey", "duration": "2:51", "src": "songs/laufey  Falling Behind Lyrics.mp3" },
+      { "title": "Cherry Bloom", "artist": "Sakura Sky", "duration": "4:02", "src": "songs/Sakura Sky - Cherry Bloom.mp3" },
+      { "title": "Strawberry Sunset", "artist": "Velvet Pulse", "duration": "3:58", "src": "songs/Velvet Pulse - Strawberry Sunset.mp3" },
+      { "title": "Moonlight Whispers", "artist": "Kori Hana", "duration": "4:21", "src": "songs/Kori Hana - Moonlight Whispers.mp3" },
+      { "title": "Bubblegum Rain", "artist": "Candywave", "duration": "3:32", "src": "songs/Candywave - Bubblegum Rain.mp3" },
+      { "title": "Rosy Horizon", "artist": "Mira Muse", "duration": "4:10", "src": "songs/Mira Muse - Rosy Horizon.mp3" },
+      { "title": "Lavender Love", "artist": "Petalpop", "duration": "3:47", "src": "songs/Petalpop - Lavender Love.mp3" },
+      { "title": "Marshmallow Nights", "artist": "Sleepy Cat", "duration": "4:05", "src": "songs/Sleepy Cat - Marshmallow Nights.mp3" },
+      { "title": "Blossom Bop", "artist": "Flora Tunez", "duration": "3:54", "src": "songs/Flora Tunez - Blossom Bop.mp3" },
+      { "title": "Cotton Candy Clouds", "artist": "Peach Moon", "duration": "4:18", "src": "songs/Peach Moon - Cotton Candy Clouds.mp3" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Pop Parade",
+    "image": "images/pop.png",
+    "description": "Your favorite chart-toppers in one place.",
+    "author": "Musheu",
+    "tracks": [
+      { "title": "Aquamarine", "artist": "Addison Rae", "duration": "2:43", "src": "songs/Addison Rae - Aquamarine (Lyrics).mp3" },
+      { "title": "Cherry Bloom", "artist": "Sakura Sky", "duration": "4:02", "src": "songs/Sakura Sky - Cherry Bloom.mp3" },
+      { "title": "Strawberry Sunset", "artist": "Velvet Pulse", "duration": "3:58", "src": "songs/Velvet Pulse - Strawberry Sunset.mp3" },
+      { "title": "Moonlight Whispers", "artist": "Kori Hana", "duration": "4:21", "src": "songs/Kori Hana - Moonlight Whispers.mp3" },
+      { "title": "Bubblegum Rain", "artist": "Candywave", "duration": "3:32", "src": "songs/Candywave - Bubblegum Rain.mp3" },
+      { "title": "Rosy Horizon", "artist": "Mira Muse", "duration": "4:10", "src": "songs/Mira Muse - Rosy Horizon.mp3" },
+      { "title": "Lavender Love", "artist": "Petalpop", "duration": "3:47", "src": "songs/Petalpop - Lavender Love.mp3" },
+      { "title": "Marshmallow Nights", "artist": "Sleepy Cat", "duration": "4:05", "src": "songs/Sleepy Cat - Marshmallow Nights.mp3" },
+      { "title": "Blossom Bop", "artist": "Flora Tunez", "duration": "3:54", "src": "songs/Flora Tunez - Blossom Bop.mp3" },
+      { "title": "Cotton Candy Clouds", "artist": "Peach Moon", "duration": "4:18", "src": "songs/Peach Moon - Cotton Candy Clouds.mp3" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Lo-fi Chill",
+    "image": "images/lofi.gif",
+    "description": "Perfect background for studying or relaxing.",
+    "author": "Musheu",
+    "tracks": [
+      { "title": "We are strangers again", "artist": "Lee", "duration": "3:49", "src": "songs/FREE Lofi Type Beat  We are strangers again.mp3" },
+      { "title": "Cherry Bloom", "artist": "Sakura Sky", "duration": "4:02", "src": "songs/Sakura Sky - Cherry Bloom.mp3" },
+      { "title": "Strawberry Sunset", "artist": "Velvet Pulse", "duration": "3:58", "src": "songs/Velvet Pulse - Strawberry Sunset.mp3" },
+      { "title": "Moonlight Whispers", "artist": "Kori Hana", "duration": "4:21", "src": "songs/Kori Hana - Moonlight Whispers.mp3" },
+      { "title": "Bubblegum Rain", "artist": "Candywave", "duration": "3:32", "src": "songs/Candywave - Bubblegum Rain.mp3" },
+      { "title": "Rosy Horizon", "artist": "Mira Muse", "duration": "4:10", "src": "songs/Mira Muse - Rosy Horizon.mp3" },
+      { "title": "Lavender Love", "artist": "Petalpop", "duration": "3:47", "src": "songs/Petalpop - Lavender Love.mp3" },
+      { "title": "Marshmallow Nights", "artist": "Sleepy Cat", "duration": "4:05", "src": "songs/Sleepy Cat - Marshmallow Nights.mp3" },
+      { "title": "Blossom Bop", "artist": "Flora Tunez", "duration": "3:54", "src": "songs/Flora Tunez - Blossom Bop.mp3" },
+      { "title": "Cotton Candy Clouds", "artist": "Peach Moon", "duration": "4:18", "src": "songs/Peach Moon - Cotton Candy Clouds.mp3" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Energy Boost",
+    "image": "images/pepsi.gif",
+    "description": "Feel the power with upbeat anthems.",
+    "author": "Musheu",
+    "tracks": [
+      { "title": "Young, Black & Rich", "artist": "Melly Mike", "duration": "2:36", "src": "songs/Melly Mike  Young Black  Rich Lyrics.mp3" },
+      { "title": "Cherry Bloom", "artist": "Sakura Sky", "duration": "4:02", "src": "songs/Sakura Sky - Cherry Bloom.mp3" },
+      { "title": "Strawberry Sunset", "artist": "Velvet Pulse", "duration": "3:58", "src": "songs/Velvet Pulse - Strawberry Sunset.mp3" },
+      { "title": "Moonlight Whispers", "artist": "Kori Hana", "duration": "4:21", "src": "songs/Kori Hana - Moonlight Whispers.mp3" },
+      { "title": "Bubblegum Rain", "artist": "Candywave", "duration": "3:32", "src": "songs/Candywave - Bubblegum Rain.mp3" },
+      { "title": "Rosy Horizon", "artist": "Mira Muse", "duration": "4:10", "src": "songs/Mira Muse - Rosy Horizon.mp3" },
+      { "title": "Lavender Love", "artist": "Petalpop", "duration": "3:47", "src": "songs/Petalpop - Lavender Love.mp3" },
+      { "title": "Marshmallow Nights", "artist": "Sleepy Cat", "duration": "4:05", "src": "songs/Sleepy Cat - Marshmallow Nights.mp3" },
+      { "title": "Blossom Bop", "artist": "Flora Tunez", "duration": "3:54", "src": "songs/Flora Tunez - Blossom Bop.mp3" },
+      { "title": "Cotton Candy Clouds", "artist": "Peach Moon", "duration": "4:18", "src": "songs/Peach Moon - Cotton Candy Clouds.mp3" }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Throwback Hits",
+    "image": "images/vintage.gif",
+    "description": "Hits from the 2000s to take you back.",
+    "author": "Musheu",
+    "tracks": [
+      { "title": "Break the Ice", "artist": "Britney Spears", "duration": "3:13", "src": "songs/Britney Spears  Break The Ice Audio.mp3" },
+      { "title": "Cherry Bloom", "artist": "Sakura Sky", "duration": "4:02", "src": "songs/Sakura Sky - Cherry Bloom.mp3" },
+      { "title": "Strawberry Sunset", "artist": "Velvet Pulse", "duration": "3:58", "src": "songs/Velvet Pulse - Strawberry Sunset.mp3" },
+      { "title": "Moonlight Whispers", "artist": "Kori Hana", "duration": "4:21", "src": "songs/Kori Hana - Moonlight Whispers.mp3" },
+      { "title": "Bubblegum Rain", "artist": "Candywave", "duration": "3:32", "src": "songs/Candywave - Bubblegum Rain.mp3" },
+      { "title": "Rosy Horizon", "artist": "Mira Muse", "duration": "4:10", "src": "songs/Mira Muse - Rosy Horizon.mp3" },
+      { "title": "Lavender Love", "artist": "Petalpop", "duration": "3:47", "src": "songs/Petalpop - Lavender Love.mp3" },
+      { "title": "Marshmallow Nights", "artist": "Sleepy Cat", "duration": "4:05", "src": "songs/Sleepy Cat - Marshmallow Nights.mp3" },
+      { "title": "Blossom Bop", "artist": "Flora Tunez", "duration": "3:54", "src": "songs/Flora Tunez - Blossom Bop.mp3" },
+      { "title": "Cotton Candy Clouds", "artist": "Peach Moon", "duration": "4:18", "src": "songs/Peach Moon - Cotton Candy Clouds.mp3" }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Latin Heat",
+    "image": "images/diamond.gif",
+    "description": "Salsa, reggaeton, and more fuego.",
+    "author": "Musheu",
+    "tracks": [
+      { "title": "EL MUNDO ES MIO", "artist": "Bad Bunny", "duration": "2:45", "src": "songs/EL MUNDO ES MIO  Bad Bunny Letra  Lyrics.mp3" },
+      { "title": "Cherry Bloom", "artist": "Sakura Sky", "duration": "4:02", "src": "songs/Sakura Sky - Cherry Bloom.mp3" },
+      { "title": "Strawberry Sunset", "artist": "Velvet Pulse", "duration": "3:58", "src": "songs/Velvet Pulse - Strawberry Sunset.mp3" },
+      { "title": "Moonlight Whispers", "artist": "Kori Hana", "duration": "4:21", "src": "songs/Kori Hana - Moonlight Whispers.mp3" },
+      { "title": "Bubblegum Rain", "artist": "Candywave", "duration": "3:32", "src": "songs/Candywave - Bubblegum Rain.mp3" },
+      { "title": "Rosy Horizon", "artist": "Mira Muse", "duration": "4:10", "src": "songs/Mira Muse - Rosy Horizon.mp3" },
+      { "title": "Lavender Love", "artist": "Petalpop", "duration": "3:47", "src": "songs/Petalpop - Lavender Love.mp3" },
+      { "title": "Marshmallow Nights", "artist": "Sleepy Cat", "duration": "4:05", "src": "songs/Sleepy Cat - Marshmallow Nights.mp3" },
+      { "title": "Blossom Bop", "artist": "Flora Tunez", "duration": "3:54", "src": "songs/Flora Tunez - Blossom Bop.mp3" },
+      { "title": "Cotton Candy Clouds", "artist": "Peach Moon", "duration": "4:18", "src": "songs/Peach Moon - Cotton Candy Clouds.mp3" }
+    ]
+  }
+]
+
